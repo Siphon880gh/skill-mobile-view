@@ -19,3 +19,18 @@ Emulation.setUserAgentOverride
 Emulation.setDeviceMetricsOverride
   width: 390, height: 844, deviceScaleFactor: 3, mobile: true
 ```
+
+## Verify
+
+```js
+({
+  ua: navigator.userAgent,
+  mobileUA: /Mobile|Android|iPhone/.test(navigator.userAgent),
+  width: innerWidth,
+  height: innerHeight
+})
+```
+
+If `mobileUA` is false, the UA override did not stick — do not treat the page as a mobile render.
+
+`wp_is_mobile()` is server-side. Changing UA after load without a reload still shows desktop PHP.
