@@ -1,0 +1,19 @@
+{
+  "name": "mobile-view-skill",
+  "version": "1.0.0",
+  "description": "Emulate real mobile browser environments (UA + Viewport) for AI coding agents.",
+  "main": "skills/mobile-view/SKILL.md",
+  "files": [
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai-skill",
+    "cursor",
+    "mobile-emulation",
+    "user-agent",
+    "viewport"
+  ],
+  "license": "MIT"
+}
