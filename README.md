@@ -2,6 +2,12 @@
 
 The `mobile-view` skill simulates a genuine mobile browsing environment for AI coding agents. Unlike simple viewport resizing, it overrides the **User Agent**, **Viewport**, **Device Pixel Ratio**, and **Touch Emulation**.
 
+## Use cases
+
+- **Accessibility / ADA-oriented mobile review:** Ask an agent to critique whether buttons, links, and other controls leave enough room for a thumb. For example, it can check against WCAG 2.2's 24 × 24 CSS-pixel minimum target-size requirement (including its spacing allowance).
+- **Screenshot-based visual QA:** Have the agent take mobile screenshots to document issues such as clipped content, overlapping controls, or hard-to-read layouts. Note it requires your AI already has browser tab and screenshot skills (eg. Cursor).
+- **Responsive checks before deployment:** Review the genuine iPhone or Android experience locally, without deploying a build and manually checking it on a phone.
+
 ## Why this matters
 
 Many websites use server-side detection (e.g., WordPress `wp_is_mobile()`) or CDN-level branching to serve different content to mobile users. If you only change the window width, the server still sees a desktop User Agent and serves the desktop version of the page, which often behaves differently or contains different markup than the actual mobile site.
