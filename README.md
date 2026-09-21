@@ -1,6 +1,12 @@
 # Mobile View Skill
+![Last Commit](https://img.shields.io/github/last-commit/Siphon880gh/skill-mobile-view/main)
+<a target="_blank" href="https://github.com/Siphon880gh" rel="nofollow"><img src="https://img.shields.io/badge/GitHub--blue?style=social&logo=GitHub" alt="Github" data-canonical-src="https://img.shields.io/badge/GitHub--blue?style=social&logo=GitHub" style="max-width:8.5ch;"></a>
+<a target="_blank" href="https://www.linkedin.com/in/weng-fung/" rel="nofollow"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="Linked-In" data-canonical-src="https://img.shields.io/badge/LinkedIn-blue?style=flat&amp;logo=linkedin&amp;labelColor=blue" style="max-width:10ch;"></a>
+<a target="_blank" href="https://www.youtube.com/@WengTeachesCode/" rel="nofollow"><img src="https://img.shields.io/badge/Youtube-red?style=flat&logo=youtube&labelColor=red" alt="Youtube" data-canonical-src="https://img.shields.io/badge/Youtube-red?style=flat&amp;logo=youtube&amp;labelColor=red" style="max-width:10ch;"></a>
 
-The `mobile-view` skill simulates a genuine mobile browsing environment for AI coding agents. Unlike simple viewport resizing, it overrides the **User Agent**, **Viewport**, **Device Pixel Ratio**, and **Touch Emulation**.
+By Weng (Weng Fei Fung).
+
+The `mobile-view` skill simulates a genuine mobile browsing environment for AI coding agents for ADA checks, responsiveness checks, and screenshotting. Unlike simple viewport resizing, it overrides the **User Agent**, **Viewport**, **Device Pixel Ratio**, and **Touch Emulation**.
 
 ## Use cases
 
